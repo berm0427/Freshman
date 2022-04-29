@@ -15,7 +15,7 @@ int main()
 		if (minute < 0)
 		{
 			printf("[>] 잘못된 값 입니다.\n");
-			printf("[>] 달러 환전을 위한 원화 입력\n[<] ");
+			printf("[>] 주차요금 계산을 위한 시간을 분으로 입력\n[<] ");
 			scanf("%d", &minute);
 		}
 		else
