@@ -10,7 +10,7 @@ int main()
 	int balance, amount;
 
 	balance = 100000;
-	printf("[>] 사용액 입력 \n[<]: ");
+	printf("[>] 사용액 입력 \n[<] ");
 	scanf("%d", &amount);
 
 	if (amount <= balance)
