@@ -1,17 +1,19 @@
 #include <stdio.h>
 
-void hap(int su1,int su2)
+int hap(int su)
 {
-	int sum = 0;
-	for (int i=su1; i<=su2; i++)
+	if (su <= 1)
 	{
-		sum += i;
+		return 1;
 	}
-	printf("%d에서 %d까지의 합 : %d\n",su1,su2,sum);
+	else
+	{
+		return su + hap(su - 1);
+	}
 }
 
 int main()
 {
-	hap(1, 10);
-	hap(1, 50);
+	printf("1에서 10의 합 : %d\n",hap(10));
+	printf("1에서 50의 합 : %d\n",hap(50));
 }
