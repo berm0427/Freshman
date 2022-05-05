@@ -7,7 +7,7 @@
 
 int main()
 {
-	int dollar, won, exchange, d1 = 0, d5 = 0, d10 = 0, d20 = 0, d50 = 0, d100 = 0;
+	int dollar, won, exchange, d1 = 0, d2 = 0, d5 = 0, d10 = 0, d20 = 0, d50 = 0, d100 = 0;
 	printf("[>] 달러 환전을 위한 원화 입력\n[<] ");
 	scanf("%d", &won);
     	for (;;)
@@ -41,10 +41,15 @@ int main()
 	dollar = won / exchange;
 	for (;;)
 	{
-		if (dollar < 5)
+		if (dollar < 2)
 		{
 			d1 = dollar / 1;
 			dollar %= 1;
+		}
+		else if (dollar < 5)
+		{
+			d2 = dollar /2;
+			dollar %= 2;
 		}
 		else if (dollar < 10)
 		{
@@ -81,6 +86,7 @@ int main()
 	printf("[>] 20달러: %d개\n", d20);
 	printf("[>] 10달러: %d개\n", d10);
 	printf("[>] 5달러: %d개\n", d5);
+	printf("[>] 2달러: %d개\n", d2);
 	printf("[>] 1달러: %d\n", d1);
 	return 0;
 }
