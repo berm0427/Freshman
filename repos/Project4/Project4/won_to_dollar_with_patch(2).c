@@ -46,8 +46,8 @@ int main()
 		{
 			if (dollar_result < 2)
 			{
-				d2 = dollar_result / 1
-				dollar_result %= 1
+				d2 = dollar_result / 1;
+				dollar_result %= 1;
 			}
 			else if (dollar_result < 5)
 			{
