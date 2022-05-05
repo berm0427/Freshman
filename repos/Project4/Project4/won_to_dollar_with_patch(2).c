@@ -44,15 +44,15 @@ int main()
 	int dollar_result = (int)(dollar + 0.5);
 		for (;;)
 		{
-			if (dollar_result)
+			if (dollar_result < 2)
 			{
-				d2 = dollar_result / 2
-				dollar_result %= 2
+				d2 = dollar_result / 1
+				dollar_result %= 1
 			}
 			else if (dollar_result < 5)
 			{
-				d1 = dollar_result / 1;
-				dollar_result %= 1;
+				d1 = dollar_result / 2;
+				dollar_result %= 2;
 			}
 			else if (dollar_result < 10)
 			{
