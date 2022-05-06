@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>LOGIN PLZ</title> <!-- 창에 뜨는 제목 -->
+        <link rel="stylesheet" href="login.css"> <!-- 외부 스타일 참조 -->
+    </head>
+    <body id="log_all"> <!-- 전반적인 로그인 틀 -->
+        <h1 id="h1">L O G I N</h1> <!-- 제목 글씨 -->
+        <h2 id="h2">If you want to see this information, you have to login now!</h2> <!-- 부제1 글씨 -->
+        <p id="p">정보를 보려면 로그인 해야합니다.</p> <!--부제2 글씨 -->
+        <form id="log_form" action="login.php" name="POST" method="POST"> <!-- 로그인 입력 칸 전체 틀 -->
+            <h4 id="id">ID</h4> <!-- ID 글씨 -->
+            <input type="text" name="id" id="id_fid" placeholder="아이디">
+            <div id="div_p"> <!-- 비밀번호 입력 틀 -->
+            <h4 id="pass">Password</h4> <!-- password 글씨 -->
+            <input type="password" name="pw" id="pass_fid" placeholder="패스워드">
+            </div>
+            <div id="div_su"> <!-- 로그인 버튼 틀 -->
+            <input type="submit" value="로그인" id="submit">
+            </div>
+            <div id="div_si"> <!-- 회원가입 버튼 틀 -->
+            <input type="submit" value="회원가입" id="sign_up">
+            </div>
+        </form>
+    </body>
+</html>
