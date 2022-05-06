@@ -1,0 +1,79 @@
+#h1
+{
+    margin: auto;
+    color: blueviolet;
+    text-align: center;
+    background: linear-gradient(to right, rgb(140, 218, 241), rgb(255, 156, 47));
+}
+#p
+{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    background: linear-gradient(to left, rgb(140, 218, 241), rgb(255, 156, 47));
+    color: blueviolet;
+}
+#log_form
+{
+    display: block;
+    padding: 20px;
+    outline-style: double;
+}
+#div_p
+{
+    padding: 20px;
+}
+#id_fid
+{
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+#pass_fid
+{
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+h2
+{
+    text-align: center;
+    background: linear-gradient(to right, rgb(30, 144, 255), rgb(161, 235, 23)); 
+}
+#log_all
+{
+    position: relative;
+    transform: translateY(30%);
+}
+#submit
+{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    background: linear-gradient(to right, rgb(255, 77, 46), rgb(255, 155, 47));
+}
+#sign_up
+{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    background: linear-gradient(to left, rgb(255, 77, 46), rgb(255, 155, 47));
+}
+#div_si
+{
+    padding: 20px;
+}
+#id
+{
+    text-align: center;
+}
+#pass
+{
+    text-align: center;
+}
