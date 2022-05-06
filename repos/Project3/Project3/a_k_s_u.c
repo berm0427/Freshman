@@ -4,13 +4,13 @@
 int main()
 {
 	int num;
-	printf("[<] ¾ç¼ö ÀÔ·Â : ");
+	printf("[<] ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ");
 	scanf("%d", &num);
-	for (int i = 1; i <= num; i++ )
+	for (int i = 1; i <= num; i++)
 	{
 		if (num % i == 0)
 		{
-			printf("[>] %d\n",i);
+			printf("[>] %d\n", i);
 		}
 	}
 	return 0;
