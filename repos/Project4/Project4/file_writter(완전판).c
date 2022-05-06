@@ -12,3 +12,4 @@ int main()
 	fclose(fp);
 	return 0;
 }
+// 특수기호 입력위해서는 그 해당 특수기호는 두 번..
