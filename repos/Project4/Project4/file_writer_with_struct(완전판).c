@@ -13,11 +13,11 @@ int main()
 	char gender;
 	struct person p = { '\0', };
 	struct person* ptr = &p;
-	printf("[>] 이름 \n[>] ");
+	printf("[>] 이름 \n[<] ");
 	scanf("%s", name);
-	printf("[>] 나이 \n[>] ");
+	printf("[>] 나이 \n[<] ");
 	scanf("%d", &age);
-	printf("[>] 성별 \n[>] ");
+	printf("[>] 성별 \n[<] ");
 	scanf("\n%c", &gender);
 	strcpy(p.name,name);
 	p.age = age;
