@@ -56,12 +56,12 @@ void stu_info()
 				}
 				break;
 			case 2:
-				printf("학번\t이름\t국어\t수학\tC프\n");
+				printf("학번\t\t이름\t\t국어\t\t수학\t\tC프\n");
 				for (int num = 0;; num++)
 				{
 					if (ptr[num].student_number != 0)
 					{
-						printf("%d\t%s\t%d\t%d\t%d", p[num].student_number, p[num].name, p[num].k_s, p[num].m_s, p[num].p_s);
+						printf("%d\t%s\t\t%d\t\t%d\t\t%d", p[num].student_number, p[num].name, p[num].k_s, p[num].m_s, p[num].p_s);
 						printf("\n");
 					}
 					if (ptr[num].student_number == 0)
