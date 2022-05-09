@@ -71,7 +71,7 @@ void stu_info()
 				}
 				break;
 			case 3:
-				break;
+				return 0;
 	}
 	}
 }
