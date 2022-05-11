@@ -40,7 +40,7 @@ student input()
 }
 
 void output(student* p, int size)
-{//         구조체 포인터   사이즈변수
+{//         구조체의포인터   사이즈변수
     printf("학번     이름     글쓰기   이산수학   C프로그래밍\n");
     for (int i = 0; (p + (size * i))->studentID != NULL; i++) 
     {
