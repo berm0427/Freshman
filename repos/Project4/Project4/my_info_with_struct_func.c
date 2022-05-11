@@ -79,7 +79,8 @@ void main()
 
         case OUTPUT:
             output(&studentList[0], &studentList[1] - &studentList[0]);
-            break;//초기 주소          주소값의 차이를 통해 배열의 사이즈 구하는 식 
+            break;
+                 //포인터가 가리킬 초기 주소  주소값의 차이를 통해 배열의 사이즈 구하는 식 
 
         case EXIT:
             printf("[>] Bye Bye!");
