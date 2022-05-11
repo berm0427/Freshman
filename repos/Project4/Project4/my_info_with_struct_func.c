@@ -48,6 +48,7 @@ void output(student* p, int size)
     }
 }
 
+
 void main()
 {
     int index = 0;
