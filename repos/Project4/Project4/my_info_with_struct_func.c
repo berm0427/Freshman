@@ -10,7 +10,7 @@
 typedef struct student_info
 {
     int studentID;
-    char name[9]; // The maximum size of a utf-8 encoded name is 4
+    char name[9];
 
     int writing;
     int discreate_mathematics;
@@ -40,13 +40,13 @@ student input()
 }
 
 void output(student* p, int size)
-{
+{//         구조체 포인터   사이즈변수
     printf("학번     이름     글쓰기   이산수학   C프로그래밍\n");
-    for (int i = 0; (p + (size * i))->studentID != NULL; i++)
+    for (int i = 0; (p + (size * i))->studentID != NULL; i++) 
     {
         printf("%-08d %-08s %-08d %-08d   %-08d\n", (p + (size * i))->studentID, (p + (size * i))->name, (p + (size * i))->writing, (p + (size * i))->discreate_mathematics, (p + (size * i))->C_Pro);
-    }
-}
+    }// (p + (size * i))->studentID : 참조하는 식
+}  // 포인터 배열의사이즈 변수  
 
 void main()
 {
@@ -79,7 +79,7 @@ void main()
 
         case OUTPUT:
             output(&studentList[0], &studentList[1] - &studentList[0]);
-            break;
+            break;//초기 주소          주소값의 차이를 통해 배열의 사이즈 구하는 식 
 
         case EXIT:
             printf("[>] Bye Bye!");
