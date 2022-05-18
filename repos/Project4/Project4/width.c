@@ -22,8 +22,8 @@ int main()
 	scanf("%d", &x);
 	printf("[>] 정사각형의 둘레의 길이는 %d입니다.\n", rect_ar(x));
 	printf("[>] 정사각형의 넓이의 길이는 %lf입니다.\n", rect_wid(x));
-	printf("[>] 삼각형의 둘레의 길이는 %d입니다.\n", tri_ar(x,y,z));
-	printf("[>] 삼각형의 넓이의 길이는 %lf입니다.\n", tri_wid(x,y));
+	printf("[>] 삼각형의 둘레의 길이는 %d입니다.\n", tri_ar(x));
+	printf("[>] 삼각형의 넓이의 길이는 %lf입니다.\n", tri_wid(x));
 	printf("[>] 원의 둘레의 길이는 %lf입니다.\n", cir_ar(x));
 	printf("[>] 원의 둘레의 길이는 %lf입니다.\n", cir_wid(x));
 }
@@ -45,7 +45,7 @@ double tri_wid(int x)
 }
 double cir_ar(int x)
 {
-	return 2*x * PI;
+	return 2 * x * PI;
 }
 
 double cir_wid(int x)
