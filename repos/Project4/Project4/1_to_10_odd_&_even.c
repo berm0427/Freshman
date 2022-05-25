@@ -33,7 +33,7 @@ int main()
 		{
 			odd[i] = e_o[i];
 		}
-		ptr++;
+		// ptr++;
 	}
 	printf("[>] 1과 해당 입력한 정수들의 홀수들의 합은 %d이고, 짝수들의 합은 %d입니다.\n", odd_sum(odd), even_sum(even));
 	return 0;
